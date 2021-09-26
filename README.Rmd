@@ -27,7 +27,7 @@ de la de [`Wes Anderson`](https://github.com/karthik/wesanderson) pero con los c
 
 Puedes instalar desde Github haciendo
 
-```{r. eval = FALSE}
+```{r, eval = FALSE}
 devtools::install_github("RodrigoZepeda/gobmx")
 ```
 

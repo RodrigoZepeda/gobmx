@@ -15,7 +15,9 @@ colores institucionales vigentes en 2021. **NO ES UN PRODUCTO OFICIAL**.
 
 Puedes instalar desde Github haciendo
 
-`{r. eval = FALSE} devtools::install_github("RodrigoZepeda/gobmx")`
+``` r
+devtools::install_github("RodrigoZepeda/gobmx")
+```
 
 para llamarla a tu sesión actual:
 
@@ -47,7 +49,7 @@ library(gobmx)
 gobmx_palette("Federal")
 ```
 
-<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-6-1.png" width="100%" />
 
 # Gobierno Federal (sólo tonos oscuros)
 
@@ -55,4 +57,51 @@ gobmx_palette("Federal")
 gobmx_palette("FederalDark")
 ```
 
-<img src="man/figures/README-unnamed-chunk-6-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-7-1.png" width="100%" />
+
+# Gobierno Federal (sólo tonos claros)
+
+``` r
+gobmx_palette("FederalDark")
+```
+
+<img src="man/figures/README-unnamed-chunk-8-1.png" width="100%" />
+
+# IMSS
+
+``` r
+gobmx_palette("IMSS")
+```
+
+<img src="man/figures/README-unnamed-chunk-9-1.png" width="100%" />
+
+# CDMX 1
+
+``` r
+gobmx_palette("CDMX1")
+```
+
+<img src="man/figures/README-unnamed-chunk-10-1.png" width="100%" />
+
+# CDMX 2
+
+``` r
+gobmx_palette("CDMX2")
+```
+
+<img src="man/figures/README-unnamed-chunk-11-1.png" width="100%" />
+
+# Ejemplos
+
+``` r
+library(ggplot2)
+pal   <- gobmx_palette("FederalLight", 32, type = "continuous")
+datos <- data.frame(y = rnorm(32), Estado = as.factor(1:32))
+ggplot(datos, aes(x = Estado, y = y)) +
+  geom_col(aes(fill = Estado)) +
+  scale_fill_manual(values = pal) +
+  theme_classic() +
+  theme(legend.position = "none")
+```
+
+<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
