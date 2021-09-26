@@ -62,7 +62,7 @@ gobmx_palette("FederalDark")
 # Gobierno Federal (sólo tonos claros)
 
 ``` r
-gobmx_palette("FederalDark")
+gobmx_palette("FederalLight")
 ```
 
 <img src="man/figures/README-unnamed-chunk-8-1.png" width="100%" />
@@ -105,3 +105,14 @@ ggplot(datos, aes(x = Estado, y = y)) +
 ```
 
 <img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
+
+``` r
+pal   <- gobmx_palette("CDMX2", 32, type = "continuous")
+datos <- data.frame(y = rnorm(32), Estado = as.factor(1:32))
+ggplot(faithfuld, aes(waiting, eruptions)) +
+  geom_raster(aes(fill = density)) +
+  scale_fill_gradientn(colours = pal) +
+  theme_void()
+```
+
+<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
