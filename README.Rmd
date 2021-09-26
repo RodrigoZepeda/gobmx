@@ -110,3 +110,6 @@ ggplot(faithfuld, aes(waiting, eruptions)) +
   scale_fill_gradientn(colours = pal) +
   theme_void()
 ```
+
+# Colabora
+Si tu institución favorita no está aquí, siempre puedes agregarla ya sea a través de un `pull request` o bien si no sabes cómo, escríbeme en Twitter [@RodZepeda](https://twitter.com/RodZepeda)

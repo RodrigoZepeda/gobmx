@@ -116,3 +116,9 @@ ggplot(faithfuld, aes(waiting, eruptions)) +
 ```
 
 <img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
+
+# Colabora
+
+Si tu institución favorita no está aquí, siempre puedes agregarla ya sea
+a través de un `pull request` o bien si no sabes cómo, escríbeme en
+Twitter \[@RodZepeda\](<https://twitter.com/RodZepeda>)
