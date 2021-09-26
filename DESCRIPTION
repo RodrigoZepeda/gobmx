@@ -1,0 +1,20 @@
+Package: gobmx
+Title: A Palette Generator inspired by the Mexican Government aesthetics
+Description: A Palette Generator inspired by the Mexican Government aesthetics. This is not an official product.
+Date: 2021-09-26
+Version: 0.3.6.9000
+Authors@R: c(person("Rodrigo", "Zepeda-Tello", role = c("aut", "cre"),
+    email = "rzepeda17@gmail.com"))
+Depends:
+    R (>= 4.0)
+License: GPL (>= 3)
+LazyData: true
+Encoding: UTF-8
+Suggests:
+    knitr,
+    ggplot2,
+    rmarkdown
+URL: https://github.com/RodrigoZepeda/gobmx
+BugReports: https://github.com/RodrigoZepeda/wesanderson/issues
+RoxygenNote: 7.1.2
+VignetteBuilder: knitr
