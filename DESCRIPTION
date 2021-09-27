@@ -15,6 +15,6 @@ Suggests:
     ggplot2,
     rmarkdown
 URL: https://github.com/RodrigoZepeda/gobmx
-BugReports: https://github.com/RodrigoZepeda/wesanderson/issues
+BugReports: https://github.com/RodrigoZepeda/gobmx/issues
 RoxygenNote: 7.1.2
 VignetteBuilder: knitr

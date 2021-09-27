@@ -108,6 +108,12 @@ gobmx_palette("INAI")
 gobmx_palette("CONEVAL")
 ```
 
+# EDOMEX
+
+```{r}
+gobmx_palette("EDOMEX")
+```
+
 # Ejemplos
 
 ```{r}

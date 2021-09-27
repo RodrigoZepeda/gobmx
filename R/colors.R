@@ -15,6 +15,9 @@ gobmx_palettes <- list(
   `CDMX2`        = c("#2b2287","#174a80","#1e67ad","#7343be","#cb2833",
                      "#d44787", "#ec95c5","#ffc200","#fca800","#ae8156",
                      "#6b4c2a"),                                          #https://www.transparencia.cdmx.gob.mx/storage/app/uploads/public/5cc/b12/d87/5ccb12d87a046038647965.pdf
+  `EDOMEX`       = c("#63666A","#97999B","#97D700","#E40046","#EF6079",
+                     "#FF9E1B","#FFCD00","#00a9e0","#702F8A","#BF4DA5",
+                     "#F04E98"), #comunicación personal
   `INEGI`        = c("#27251F","#003057","#706F6F","#0077C8") #https://sc.inegi.org.mx/repositorioNormateca/ODm_22Ene19.pdf
 )
 
@@ -30,7 +33,7 @@ gobmx_palettes <- list(
 #'   If omitted, uses all colours.
 #' @param name Name of desired palette. Choices are:
 #'   \code{FederalDark}, \code{FederalLight},  \code{IMSS}, \code{CDMX1},
-#'   \code{CDMX2}, \code{INAI}, \code{INEGI}, and \code{CONEVAL}
+#'   \code{CDMX2}, \code{INAI}, \code{INEGI}, \code{CONEVAL}, \code{EDOMEX}
 #' @param type Either "continuous" or "discrete". Use continuous if you want
 #'   to automatically interpolate between colours.
 #'   @importFrom graphics rgb rect par image text
