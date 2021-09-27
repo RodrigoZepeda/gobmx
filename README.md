@@ -35,7 +35,7 @@ dichos colores. Las paletas disponibles son las siguientes:
 ``` r
 names(gobmx_palettes)
 #> [1] "Federal"      "FederalLight" "FederalDark"  "IMSS"         "CONEVAL"     
-#> [6] "INAI"         "CDMX1"        "CDMX2"
+#> [6] "INAI"         "CDMX1"        "CDMX2"        "INEGI"
 ```
 
 ``` r
@@ -91,13 +91,21 @@ gobmx_palette("CDMX2")
 
 <img src="man/figures/README-unnamed-chunk-11-1.png" width="100%" />
 
+# INEGI
+
+``` r
+gobmx_palette("INEGI")
+```
+
+<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
+
 # INAI
 
 ``` r
 gobmx_palette("INAI")
 ```
 
-<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
 
 # CONEVAL
 
@@ -105,13 +113,13 @@ gobmx_palette("INAI")
 gobmx_palette("CONEVAL")
 ```
 
-<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-14-1.png" width="100%" />
 
 # Ejemplos
 
 ``` r
 library(ggplot2)
-pal   <- gobmx_palette("FederalLight", 32, type = "continuous")
+pal   <- gobmx_palette("FederalDark", 32, type = "continuous")
 datos <- data.frame(y = rnorm(32), Estado = as.factor(1:32))
 ggplot(datos, aes(x = Estado, y = y)) +
   geom_col(aes(fill = Estado)) +
@@ -120,7 +128,7 @@ ggplot(datos, aes(x = Estado, y = y)) +
   theme(legend.position = "none")
 ```
 
-<img src="man/figures/README-unnamed-chunk-14-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-15-1.png" width="100%" />
 
 ``` r
 pal   <- gobmx_palette("CDMX2", 32, type = "continuous")
@@ -131,7 +139,7 @@ ggplot(faithfuld, aes(waiting, eruptions)) +
   theme_void()
 ```
 
-<img src="man/figures/README-unnamed-chunk-15-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-16-1.png" width="100%" />
 
 # Colabora
 

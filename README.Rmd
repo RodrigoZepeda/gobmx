@@ -89,6 +89,13 @@ gobmx_palette("CDMX1")
 gobmx_palette("CDMX2")
 ```
 
+# INEGI
+
+```{r}
+gobmx_palette("INEGI")
+```
+
+
 # INAI
 
 ```{r}
@@ -105,7 +112,7 @@ gobmx_palette("CONEVAL")
 
 ```{r}
 library(ggplot2)
-pal   <- gobmx_palette("FederalLight", 32, type = "continuous")
+pal   <- gobmx_palette("FederalDark", 32, type = "continuous")
 datos <- data.frame(y = rnorm(32), Estado = as.factor(1:32))
 ggplot(datos, aes(x = Estado, y = y)) +
   geom_col(aes(fill = Estado)) +

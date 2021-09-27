@@ -14,7 +14,8 @@ gobmx_palettes <- list(
   `CDMX1`        = c("#00b140","#0f4c42","#91d400","#00843d","#009288"), #https://www.transparencia.cdmx.gob.mx/storage/app/uploads/public/5cc/b12/d87/5ccb12d87a046038647965.pdf
   `CDMX2`        = c("#2b2287","#174a80","#1e67ad","#7343be","#cb2833",
                      "#d44787", "#ec95c5","#ffc200","#fca800","#ae8156",
-                     "#6b4c2a")                                          #https://www.transparencia.cdmx.gob.mx/storage/app/uploads/public/5cc/b12/d87/5ccb12d87a046038647965.pdf
+                     "#6b4c2a"),                                          #https://www.transparencia.cdmx.gob.mx/storage/app/uploads/public/5cc/b12/d87/5ccb12d87a046038647965.pdf
+  `INEGI`        = c("#27251F","#003057","#706F6F","#0077C8") #https://sc.inegi.org.mx/repositorioNormateca/ODm_22Ene19.pdf
 )
 
 #' A palette generator for colors associated with the Mexican government
@@ -28,8 +29,8 @@ gobmx_palettes <- list(
 #'
 #'   If omitted, uses all colours.
 #' @param name Name of desired palette. Choices are:
-#'   \code{FederalDark}, \code{FederalLight},  \code{IMSS}, \code{CDMX1} and
-#'   \code{CDMX2}
+#'   \code{FederalDark}, \code{FederalLight},  \code{IMSS}, \code{CDMX1},
+#'   \code{CDMX2}, \code{INAI}, \code{INEGI}, and \code{CONEVAL}
 #' @param type Either "continuous" or "discrete". Use continuous if you want
 #'   to automatically interpolate between colours.
 #'   @importFrom graphics rgb rect par image text
