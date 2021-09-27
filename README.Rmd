@@ -89,6 +89,18 @@ gobmx_palette("CDMX1")
 gobmx_palette("CDMX2")
 ```
 
+# INAI
+
+```{r}
+gobmx_palette("INAI")
+```
+
+# CONEVAL
+
+```{r}
+gobmx_palette("CONEVAL")
+```
+
 # Ejemplos
 
 ```{r}

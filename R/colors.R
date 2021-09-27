@@ -9,6 +9,8 @@ gobmx_palettes <- list(
   `FederalLight` = c("#9F2241","#235B4E","#DDC9A3","#98989A"),           #https://www.gob.mx/wikiguias/articulos/manual-de-identidad-grafica-2018-2024
   `FederalDark`  = c("#691C32","#10312B","#BC955C","#6F7271"),           #https://www.gob.mx/wikiguias/articulos/manual-de-identidad-grafica-2018-2024
   `IMSS`         = c("#134E39","#8E908F"),                               #http://www.imss.gob.mx/sites/all/statics/pdf/manualesynormas/G000-001-001.pdf
+  `CONEVAL`      = c("#21409A","#00A94F"),                       #https://www.coneval.org.mx/Normateca/NormatividadInterna/Documents/Manual-de-identidad-CONEVAL.pdf
+  `INAI`         = c("#296153","#4F1C6C","#9136CC","#D04EED","#C2C2C2"),                       #https://www.coneval.org.mx/Normateca/NormatividadInterna/Documents/Manual-de-identidad-CONEVAL.pdf
   `CDMX1`        = c("#00b140","#0f4c42","#91d400","#00843d","#009288"), #https://www.transparencia.cdmx.gob.mx/storage/app/uploads/public/5cc/b12/d87/5ccb12d87a046038647965.pdf
   `CDMX2`        = c("#2b2287","#174a80","#1e67ad","#7343be","#cb2833",
                      "#d44787", "#ec95c5","#ffc200","#fca800","#ae8156",

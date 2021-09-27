@@ -34,8 +34,8 @@ dichos colores. Las paletas disponibles son las siguientes:
 
 ``` r
 names(gobmx_palettes)
-#> [1] "Federal"      "FederalLight" "FederalDark"  "IMSS"         "CDMX1"       
-#> [6] "CDMX2"
+#> [1] "Federal"      "FederalLight" "FederalDark"  "IMSS"         "CONEVAL"     
+#> [6] "INAI"         "CDMX1"        "CDMX2"
 ```
 
 ``` r
@@ -91,6 +91,22 @@ gobmx_palette("CDMX2")
 
 <img src="man/figures/README-unnamed-chunk-11-1.png" width="100%" />
 
+# INAI
+
+``` r
+gobmx_palette("INAI")
+```
+
+<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
+
+# CONEVAL
+
+``` r
+gobmx_palette("CONEVAL")
+```
+
+<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
+
 # Ejemplos
 
 ``` r
@@ -104,7 +120,7 @@ ggplot(datos, aes(x = Estado, y = y)) +
   theme(legend.position = "none")
 ```
 
-<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-14-1.png" width="100%" />
 
 ``` r
 pal   <- gobmx_palette("CDMX2", 32, type = "continuous")
@@ -115,7 +131,7 @@ ggplot(faithfuld, aes(waiting, eruptions)) +
   theme_void()
 ```
 
-<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-15-1.png" width="100%" />
 
 # Colabora
 
